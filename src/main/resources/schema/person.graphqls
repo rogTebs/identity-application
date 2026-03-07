@@ -1,0 +1,14 @@
+type PersonOutput {
+    id:UUID!
+    username: String!
+    firstName: String!
+    lastName: String!
+    email: String!
+    timezoneIana: String!
+}
+type PagedPersonOutput{
+    content: [PersonOutput!]!
+    totalElements: Int!
+    totalPages: Int!
+    currentPage: Int!
+}
