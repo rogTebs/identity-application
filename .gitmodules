@@ -1,3 +1,0 @@
-[submodule "src/main/java/com/tebs/user/identity/core"]
-	path = src/main/java/com/tebs/user/identity/core
-	url = https://github.com/rogTebs/identity-package.git

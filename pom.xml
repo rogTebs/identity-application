@@ -20,24 +20,9 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>com.tebs.library</groupId>
-            <artifactId>library-db-starter</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.tebs.library</groupId>
-            <artifactId>shared-generic-param</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.tebs.library</groupId>
-            <artifactId>library-graphql-starter</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.tebs.library</groupId>
-            <artifactId>library-security-starter</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.tebs.library</groupId>
-            <artifactId>library-cache-starter</artifactId>
+            <groupId>com.tebs.shared</groupId>
+            <artifactId>tebs-shared-identity</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>

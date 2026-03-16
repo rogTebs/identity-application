@@ -1,4 +1,4 @@
-package com.tebs.user.identity;
+package com.tebs.user.identity.core;
 
 
 import org.junit.jupiter.api.Test;
