@@ -13,15 +13,13 @@
     <name>identity</name>
     <description>users globally in the system</description>
     <properties>
-        <graphql.codegen.generated-package-name>com.tebs.user.identity.codegen.graphql
-        </graphql.codegen.generated-package-name>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <skip.springboot.plugin>false</skip.springboot.plugin>
     </properties>
     <dependencies>
         <dependency>
-            <groupId>com.tebs.shared</groupId>
-            <artifactId>tebs-shared-identity</artifactId>
+            <groupId>com.tebs.kernel</groupId>
+            <artifactId>tebs-kernel-identity</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
